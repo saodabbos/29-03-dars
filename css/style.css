@@ -1,0 +1,131 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.html{
+    box-sizing: border-box;
+}
+*::before,::after{
+    box-sizing: inherit;
+}
+.wrapper{
+    max-width: 1060px;
+    margin: 3% auto;
+    border: 3% solid red;
+    padding: 30px;
+    
+}
+
+/* item stytle start */
+
+.items{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: green;
+}
+.item__link{
+    display: block;
+    text-decoration: none;
+    padding: 30px;
+    font-size: 30px;
+    color: white;
+}
+  .item__link:hover{
+  background-color: red;
+  }
+  .item:hover .items1{
+    display: block;
+  }
+  .item{
+    position: relative;
+  }
+
+
+
+  .items1{
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    display: none;
+    width: 100%;
+  }
+  .item1{
+    margin-top: 5px;
+    padding-top: 25px;
+    list-style: none;
+    background-color:rgba(11, 17, 202, 0.68);
+    display: block;
+  }
+  .item1:hover{
+    background-color: cyan;
+  }
+  .item1__link{
+   color: white;
+   text-decoration: none;
+   font-size: 25px;
+  }
+  .item1:hover .items2{
+    display: block;
+  }
+
+  .item1{
+    position: relative;
+  }
+
+
+
+  .items2{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+    position:absolute;
+    left: 103%;
+    top: 0;
+    display: none;
+}
+.item2{
+    margin-top: 2px;
+    list-style: none;
+    background-color:rgba(11, 17, 202, 0.68);
+    display: block;
+  }
+
+  .item2:hover{
+    background-color: rgb(55, 255, 0);
+  }
+  .item2__link{
+   color: white;
+   text-decoration: none;
+  }
+  
+
+  .item2__link{
+    text-decoration: none;
+    font-size: 15px;
+  }
+
+
+
+
+/* item stytle end */
+
+
+/* places style start */
+
+.places{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #4449d9be;
+}
+
+.
+
+
+
+
+
+/* places style end */
